@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- transparent background version, for light surfaces -->
+  <path d="M62 96 L38 128 L62 160" fill="none" stroke="#0F6E6E" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M194 96 L218 128 L194 160" fill="none" stroke="#0F6E6E" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M92 182 L128 74 L164 182" fill="none" stroke="#0A4F4F" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M106 146 L150 146" fill="none" stroke="#E8A33D" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="128" cy="46" r="9" fill="#E8A33D"/>
+</svg>
