@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AasanCode Solutions — Logo Concept</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--teal:#0F6E6E;--teal-dark:#0A4F4F;--teal-deep:#083A3A;--amber:#E8A33D;--ink:#0E1B24;--muted:#5B6B73;--bg:#F6F8F8;--line:#DDE5E5}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--ink);padding:56px 24px;line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto}
+  h1{font-family:'Space Grotesk',sans-serif;font-size:1.9rem;margin-bottom:8px}
+  .sub{color:var(--muted);margin-bottom:44px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:22px}
+  .tile{border:1px solid var(--line);border-radius:18px;padding:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;min-height:240px;background:#fff}
+  .tile.dark{background:linear-gradient(140deg,var(--ink),var(--teal-deep))}
+  .tile .cap{font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+  .tile.dark .cap{color:rgba(255,255,255,.5)}
+  .lockup{display:flex;align-items:center;gap:16px}
+  .lockup img{height:58px}
+  .words .name{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.5rem;line-height:1.1}
+  .words .name .a{color:var(--teal)}
+  .words .name .s{color:var(--ink)}
+  .tile.dark .words .name .s{color:#fff}
+  .words .tag{font-size:.78rem;letter-spacing:.06em;color:var(--muted);margin-top:3px}
+  .tile.dark .words .tag{color:rgba(255,255,255,.6)}
+  .sizes{display:flex;align-items:flex-end;gap:28px}
+  .sizes img{display:block}
+  .note{background:#fff;border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:12px;padding:20px 24px;font-size:.94rem;color:var(--muted)}
+  .note b{color:var(--ink)}
+  @media(max-width:700px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>AasanCode Solutions — Logo Concept</h1>
+  <p class="sub">The mark: letter <b>A</b> as a rising chevron, an <b style="color:#D97A32">amber crossbar</b> (the "aasan" underline), a cursor dot on top, wrapped in code brackets — software, made simple.</p>
+
+  <div class="grid">
+    <div class="tile">
+      <img src="images/logo-mark.svg" width="130" alt="Logo mark on tile">
+      <span class="cap">Primary mark — app icon / favicon / DP</span>
+    </div>
+    <div class="tile">
+      <img src="images/logo-mark-light.svg" width="130" alt="Transparent logo mark">
+      <span class="cap">Transparent — for light backgrounds</span>
+    </div>
+    <div class="tile">
+      <div class="lockup">
+        <img src="images/logo-mark.svg" alt="">
+        <div class="words">
+          <div class="name"><span class="a">Aasan</span><span class="s">Code</span> <span class="s" style="font-weight:500">Solutions</span></div>
+          <div class="tag">Building Smart Software Solutions</div>
+        </div>
+      </div>
+      <span class="cap">Horizontal lockup — website header, letterhead</span>
+    </div>
+    <div class="tile dark">
+      <div class="lockup">
+        <img src="images/logo-mark.svg" alt="">
+        <div class="words">
+          <div class="name"><span class="a" style="color:#6FD3D3">Aasan</span><span class="s">Code</span> <span class="s" style="font-weight:500">Solutions</span></div>
+          <div class="tag">Building Smart Software Solutions</div>
+        </div>
+      </div>
+      <span class="cap">On dark — social covers, presentations</span>
+    </div>
+  </div>
+
+  <div class="tile" style="margin-bottom:22px">
+    <div class="sizes">
+      <img src="images/logo-mark.svg" width="96" alt="">
+      <img src="images/logo-mark.svg" width="64" alt="">
+      <img src="images/logo-mark.svg" width="40" alt="">
+      <img src="images/logo-mark.svg" width="24" alt="">
+    </div>
+    <span class="cap">Scales down clean — readable even at 24px favicon</span>
+  </div>
+
+  <div class="note">
+    <b>Files:</b> images/logo-mark.svg (tile version) &amp; images/logo-mark-light.svg (transparent). SVG che etle koi pan size par crisp — Instagram DP, favicon, print, badhe chalse. Colors site na brand tokens sathe exact match: teal #0F6E6E, amber #E8A33D.
+  </div>
+</div>
+</body>
+</html>
